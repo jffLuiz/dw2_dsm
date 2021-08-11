@@ -69,3 +69,37 @@
 }
 
 /*configuraçções do retorno das ancoras*/
+.irTopo, .irInicio, .irCursos, .irContatos, .irParceiros, .irMissao, .irSobre {
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2s;
+    position: fixed;
+    right: 1vh;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    border-radius: 4px;
+}
+.irTopo {
+    bottom: 14vh;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+} .irTopo:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.irInicio {
+    bottom: 75vh;
+    color: green;
+    background-color: bisque;
+} .irInicio:hover {
+    background-color: darkorange;
+}
+
+.irCursos {
+    bottom: 70vh;
+    color: black;
+    background-color: cyan;
+} .irCursos:hover {
+    background-color: darkmagenta;
+}

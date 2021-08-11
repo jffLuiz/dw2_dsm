@@ -20,13 +20,13 @@
 }
 
 #inicio {
-    height: 70vh;
+    height: 45vh;
     background-color: greenyellow;
     border: 1px solid red;
 }
 
 #cursos {
-    height: 90vh;
+    height: 40vh;
     background-color: hotpink;
     border: 1px solid black;
 }

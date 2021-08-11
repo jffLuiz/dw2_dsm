@@ -33,6 +33,15 @@ export default function Menu() {
                 <section id="sobre">
                     <h1>Sobre</h1>
                 </section>
+
+                <a class="irTopo" href="#menu">Topo</a>
+                <a class="irTopo" href="#inicio">Nosso Canal</a>
+                <a class="irTopo" href="#menu">Cursos</a>
+                <a class="irTopo" href="#menu">Contatos</a>
+                <a class="irTopo" href="#menu">Parceiros</a>
+                <a class="irTopo" href="#menu">Missão</a>
+                <a class="irTopo" href="#menu">Sobre</a>
+
                 <footer>
                     <h2>Rodapé</h2> 
                 </footer>

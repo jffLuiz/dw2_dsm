@@ -2,5 +2,9 @@ instruções primeira aula - REACT
 
 npx create-react-app menu -> comando para criar um projeto padrão
 
+npm install
+
+npm start
+
 
 

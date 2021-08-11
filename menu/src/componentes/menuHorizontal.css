@@ -103,3 +103,11 @@
 } .irCursos:hover {
     background-color: darkmagenta;
 }
+
+.irContatos {
+    bottom: 65vh;
+    color: white;
+    background-color: darkblue;
+} .irContatos:hover {
+    background-color: red;
+}

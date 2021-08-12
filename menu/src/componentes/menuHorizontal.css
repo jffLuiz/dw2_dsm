@@ -87,7 +87,6 @@
 } .irTopo:hover {
     background-color: rgba(0,0,0,0.6);
 }
-
 .irInicio {
     bottom: 75vh;
     color: green;
@@ -95,19 +94,78 @@
 } .irInicio:hover {
     background-color: darkorange;
 }
-
 .irCursos {
-    bottom: 70vh;
+    bottom: 71vh;
     color: black;
     background-color: cyan;
 } .irCursos:hover {
     background-color: darkmagenta;
 }
-
 .irContatos {
-    bottom: 65vh;
+    bottom: 67vh;
     color: white;
     background-color: darkblue;
 } .irContatos:hover {
     background-color: red;
+}
+.irParceiros {
+    bottom: 63vh;
+    color: darkred;
+    background-color: gray;
+} .irParceiros:hover {
+    background-color: black;
+}
+.irMissao {
+    bottom: 59vh;
+    color: indigo;
+    background-color: green;
+} .irMissao:hover {
+    background-color: black;
+}
+.irSobre {
+    bottom: 55vh;
+    color: indigo;
+    background-color: salmon;
+} .irSobre:hover {
+    background-color: green;
+}
+
+/* configurações do aside (menu lateral esquerdo) */
+
+.aside a{
+    position: absolute;
+    left: -5vw;
+    transition: 0.2s;
+    padding: 2vh;
+    width: 4vw;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+}.aside a:hover{
+    left: 0;
+}
+#inicio2 {
+    top: 20vh;
+    background-color:  blue;
+}
+#cursos2 {
+    top: 30vh;
+    background-color:  blue;
+}
+#contatos2 {
+    top: 40vh;
+    background-color:  blue;
+}
+#parceiros2 {
+    top: 50vh;
+    background-color:  blue;
+}
+#missao2 {
+    top: 60vh;
+    background-color:  blue;
+}
+#sobre2 {
+    top: 70vh;
+    background-color:  blue;
 }

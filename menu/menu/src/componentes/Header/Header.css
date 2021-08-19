@@ -1,20 +1,24 @@
-/* configurações do menu principal */
-.menu{
+/*
+    configurações do menu principal
+*/
+.menu {
     height: 40px;
-    border: 1px solid rgb(214,46,16);
+    border: 1px solid rgb(214, 46, 16);
     background-color: beige;
     padding-bottom: 8px;
     font-size: 16px;
 }
 
-.navMenu::after {
+.navMenu::after{
     content: '';
     display: block;
     clear: both;
 }
+
 .navMenu ul {
     list-style: none;
-    text-transform: left;
+    text-align: right;
+    
     display: flex;
 }
 
@@ -24,8 +28,8 @@
     text-decoration: none;
     color: #333;
 }
+
 .navMenu ul li a:hover {
-    color: #6d6d6d;
     font-weight: bold;
     font-size: 20px;
     color: blue;

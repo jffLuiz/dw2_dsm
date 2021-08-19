@@ -1,14 +1,18 @@
 import React from 'react'
 import './App.css';
-// import Menu from './menuHorizontal';
-import Header from '../Header/Header.jsx'
+import Header from '../Header/Header'
+import {Router,Switch} from 'react-router'
+import Inicio from '../Inicio/Inicio'
 
 function App() {
   return (
     <div>
-      <Header />
-
-      
+      <Header />    
+      <main>
+      <Switch>
+          <Route exact path = "/" render = {(props) => <Inicio/>} />
+        </Switch>
+      </main>
     </div>
   );
 }

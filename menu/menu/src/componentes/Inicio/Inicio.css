@@ -1,0 +1,9 @@
+.inicio, .cursos, .contatos, .parceiros, .missao, .sobre, .titulo, footer {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.inicio {
+    height: 90vh;
+    background-color: rgb(247, 179, 228);
+}

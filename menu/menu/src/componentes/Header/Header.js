@@ -1,8 +1,10 @@
 import React from 'react'
-import Link from 'react-router-dom'
-import Header from '../Header/Header.jsx'
+import { Link } from 'react-router-dom'
 
-export default function Header() {
+import './Header.css'
+
+
+export default function Header () {
     return (
         <div className="menu">
             <nav className="navMenu">

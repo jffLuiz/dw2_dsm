@@ -7,6 +7,10 @@
     background-color: beige;
     padding-bottom: 8px;
     font-size: 16px;
+
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 .navMenu::after{
@@ -18,8 +22,11 @@
 .navMenu ul {
     list-style: none;
     text-align: right;
-    
-    display: flex;
+    display: flex; 
+
+}
+.navMenu ul li {
+    display: inline;
 }
 
 .navMenu ul li a {

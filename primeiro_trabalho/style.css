@@ -1,0 +1,60 @@
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+/* bara de pesquisa */
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:5px;
+    width:30%;
+    height:50%;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:4px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:80%;
+}
+#btnBusca{
+    border-radius: 5px;
+    padding-top: 3px;
+    height: 80%;
+}
+/* fim de barra de pesquisa */
+
+#menu {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    height: 5vh;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    text-align: center;
+}
+
+

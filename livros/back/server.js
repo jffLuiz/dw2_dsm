@@ -1,13 +1,10 @@
 const http = require('http');
 const servidor = require('./config/aplicativo.js');
+const conexao = require('./config/conexao.js');
 
-server.get('/', (req, res) => {
-    res.send('Rota Raiz encontrada');
-})
 
-server.get('/autores', (req, res) => {
-    res.send('Rota Autores encontrada');
-})
+
+
 
 server.get('/editoras', (req, res) => {
     res.send('Rota Editoras encontrada');
